@@ -143,11 +143,11 @@ body {
 
 /* Scouting brand colours*/
 
-.purple {
+#purple {
     color: 7413dc;
 }
 
-.green {
+#green {
     color: 23a950;
 }
 
@@ -285,6 +285,12 @@ h4 {
 
 
 /* Paragraph & Typographic */
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 
 p {
     line-height: 28px;
