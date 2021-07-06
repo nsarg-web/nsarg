@@ -296,10 +296,11 @@ p {
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-p {
+pg {
     line-height: 28px;
     margin-bottom: 25px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: #2980b9;
 }
 
 .centered {
