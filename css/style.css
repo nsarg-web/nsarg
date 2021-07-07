@@ -143,12 +143,8 @@ body {
 
 /* Scouting brand colours*/
 
-#purple {
+.purple {
     color: 7413dc;
-}
-
-#green {
-    color: 23a950;
 }
 
 .green {
@@ -269,6 +265,7 @@ a img {
 
 h1,
 h3,
+h4,
 h5,
 h6 {
     font-family: "Open Sans";
@@ -277,14 +274,9 @@ h6 {
 }
 
 h2 {
+    color: #7413dc;
     font-family: "Open Sans";
     font-weight: 700;
-    color: #7413dc;
-}
-
-h4 {
-    font-family: "Open Sans";
-    font-weight: 400;
 }
 
 
@@ -293,14 +285,6 @@ h4 {
 p {
     line-height: 28px;
     margin-bottom: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
-pg {
-    line-height: 28px;
-    margin-bottom: 25px;
-    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    color: #2980b9;
 }
 
 .centered {
