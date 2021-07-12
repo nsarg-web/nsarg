@@ -144,11 +144,19 @@ body {
 /* Scouting brand colours*/
 
 .purple {
-    color: 7413dc;
+    color: #7413dc;
 }
 
 .green {
-    color: 23a950;
+    color: #23a950;
+}
+
+#purple {
+    color: #7413dc;
+}
+
+#green {
+    color: #23a950;
 }
 
 .navbar-default.opaqued h1 {
@@ -270,7 +278,7 @@ h5,
 h6 {
     font-family: "Open Sans";
     font-weight: 700;
-    color: red;
+    color: goldenrod;
 }
 
 h2 {
