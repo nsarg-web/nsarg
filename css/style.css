@@ -96,6 +96,7 @@ body {
 .row {
     margin-right: 0px;
     margin-left: -15px;
+    margin-top: 25px;
 }
 
 .modal-header {
@@ -279,7 +280,7 @@ h5,
 h6 {
     font-family: "Open Sans";
     font-weight: 700;
-    color: goldenrod;
+    color: rgb(13, 41, 92);
 }
 
 h2 {
