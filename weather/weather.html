@@ -1,0 +1,533 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1" /> 
+<meta name="expires" content="Mon, 02 May 2022 11:37:14 GMT" />
+<meta http-equiv="imagetoolbar" content="no" /> 
+<meta name="keywords" content="weather, satellite, images, Northampton, United Kingdom, WXtoImg" />
+<title>Weather Satellite Images for Northampton, United Kingdom</title>
+<style type="text/css">
+<!--
+#wx {
+	font-family: sans-serif, Helvetica, Arial, Geneva, Swiss, SunSans-Regular;
+	font-size: 88%;
+	margin-left: 30px;
+	margin-right: 5px;
+}
+#wxwarning {
+	color: #e33;
+	font-weight: bold;
+}
+
+.wxflag {
+	width: 90%;
+	background-color: #bbd;
+	padding: 10px 10px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.wxflag h1 {
+	font-size: 171%;
+	padding-bottom: 3px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.wxflag h2 {
+	font-size: 143%;
+	padding-bottom: 3px;
+	margin-bottom: 0px;
+}
+.wxflag h3 {
+	font-size: 124%;
+	padding-top: 2px;
+	margin-top: 0px;
+}
+.wxflag h4 {
+	font-size: 100%;
+	padding-top: 2px;
+	margin-top: 0px;
+	padding-bottom: 2px;
+	margin-bottom: 0px;
+}
+
+.wximage {
+	display: block;
+	float: left;
+	background-color: #dde;
+	padding: 10px 10px;
+	margin: 10px;
+}
+.wximagetitle h2, .wximagetitle h3, .wximagetitle h4 {
+	margin-top: 0px;
+	margin-bottom: 3px;
+}
+.wximagetitle h2 {
+	font-size: 143%;
+}
+.wximagetitle h3 {
+	font-size: 124%;
+}
+.wximagetitle h4 {
+	font-size: 100%;
+}
+.wxinfo {
+	background-color: #dde;
+	border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+	margin-top: 10px;
+	text-align: left;
+}
+.wxinfo td, .wxinfo th {
+	margin: 0px;
+	padding: 1px;
+	padding-right: 10px;
+	border: 0px;
+}
+.wxschedule {
+	display: block;
+	float: left;
+	background-color: #dde;
+	border-collapse: collapse;
+	padding: 10px 20px;
+	margin: 10px;
+}
+.wxschedule td {
+	padding: 10px;
+}
+.wxschedlist {
+	background-color: #dde;
+	border-collapse: collapse;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+.wxschedlist td, .wxschedlist th {
+	margin: 0px;
+	padding: 4px 8px;
+	border: 1px solid #888;
+}
+-->
+</style>
+</head>
+<body>
+<div id="wx">
+<div class="wxflag">
+<div style="float: left; text-align: center; font-size: 88%; margin-right: 20px; ">
+	<a href="http://www.wxtoimg.com/">
+	<img src="http://www.wxtoimg.com/logo.gif" alt="" width="80" height="80" style="border: 0px;" /><br />
+	<span>
+	Powered by<br />
+	WXtoImg
+	</span></a>
+</div>
+<h1>Weather satellite images recorded at Northampton, United Kingdom.</h1>
+<h4>Latitude: 52.230, Longitude: -0.900</h4>
+<h4>Software: <a href="http://www.wxtoimg.com/downloads/">WXtoImg version 2.11.2 beta</a></h4>
+<h4>Receiver: Kenwood2</h4>
+<h4>Antenna: Homebrew QFH</h4>
+<p>
+Click on any image below for a full sized image.
+Times are shown in GMT Summer Time.
+</p>
+<noscript>
+	<p id="wxwarning">
+	You must enable javascript in your web browser to see all the images and more detailed information.
+	</p>
+</noscript>
+</div>
+<p />
+<script type="text/javascript">
+/* <![CDATA[ */
+	var xlang = new Array();
+
+	// -----------------------------------------------------
+	// language transation for satellite info here.
+	// change only right-hand side, it must be surrounded
+	// by double quotes and end with a semicolon.
+	// You can add other projection translations as needed.
+	// You can also translate other enhancement names.
+	xlang['click']		= "click image for full-size image";
+	xlang['Composite Image']= "Composite Image";
+	xlang['on']		= "on";
+	xlang['at']		= "at";
+	xlang['southbound']	= "Southbound";
+	xlang['northbound']	= "Northbound";
+	xlang['E']		= "E";		// Abbrev. for East
+	xlang['W']		= "W";		// Abbrev. for West
+
+	xlang['Pass Start']	= "Pass Start";
+	xlang['Last Pass']	= "Last Pass";
+	xlang['Enhancement']	= "Enhancement";
+	xlang['Projection']	= "Projection";
+	xlang['Direction']	= "Direction";
+	xlang['Max Elevation']	= "Max Elevation";
+	xlang['Solar Elevation']= "Solar Elevation";
+	xlang['Pass Duration']	= "Pass Duration";
+	xlang['Frequency']	= "Frequency";
+	xlang['Channel A']	= "Channel A";
+	xlang['Channel B']	= "Channel B";
+
+	xlang['Normal']		= "Normal";
+	xlang['Mercator']	= "Mercator";
+	xlang['Orthographic']	= "Orthographic";
+
+	xlang['Pristine']	= "Pristine";
+	xlang['pris']		= "Pristine";
+	xlang['contrast']	= "Contrast Enhanced";
+	xlang['sea-day']	= "SST (sea)";
+	xlang['sea']		= "SST (sea)";
+	xlang['norm']		= "Normal";
+	xlang['therm']		= "Thermal";
+
+	// satellite channel info
+	xlang['1']		= "1 (Visible)";
+	xlang['2']		= "2 (Near Infrared)";
+	xlang['3']		= "3 (Mid Infrared)";
+	xlang['4']		= "4 (Thermal Infrared)";
+	xlang['5']		= "5 (Thermal Infrared)";
+	xlang['6']		= "3A (Mid Infrared)";
+
+	// -----------------------------------------------------
+
+	function xlate(s) {
+		if (xlang[s] == undefined || xlang[s] == "")
+			return s;
+		return xlang[s];
+	}
+
+	function wxSetStatus(s) {
+		window.status = s;
+		return true;
+	}
+
+	var imgwindow = '';
+
+	function doImgPopup(img, title, info) {
+		if (imgwindow && !imgwindow.closed) {
+			imgwindow.document.clear();
+		} else {
+			width = (screen.width * 4) / 5;
+		 	height = (screen.height * 4) / 5;
+			if (!width || width == '' || width <= 100)
+				width = 800;
+			if (!height || height == '' || height <= 100)
+				height = 600;
+			imgwindow=window.open('','WXtoImg','width=' + width + ',height=' + height + ',resizable=1,scrollbars=1');
+		}
+		html = '<html><head><title>' + title + '</title></head><body>' + 
+			'<img src="' + img + '" alt="" title="' + info + '" style="vertical-align: bottom;" /><p>' + info + '</p></body></html>';
+		imgwindow.document.write(html);
+		imgwindow.document.close();
+		imgwindow.focus();
+	}
+
+	function doImgPopdown() {
+		if (imgwindow.location && !imgwindow.closed) { 
+			imgwindow.close();
+		} 
+	}
+
+	var maxHeight = 0;
+	var maxWidth = 0;
+	function checkSize(width, height) {
+		if (width != '' && width > maxWidth)
+			maxWidth = width;
+		if (height != '' && height > maxHeight)
+			maxHeight = height;
+	}
+
+	function addCompImg(img, thumb, width, height, time, enh, enhname, proj) {
+		// we show only the latest set of composite images
+		if (img == '' || img == 'noimage.jpg' || thumb == '' || thumb == 'nothumb.jpg')
+			return;
+		if (width <= 1 || height <= 1 || proj == '')
+			return;
+
+		at = ' ' + xlate('at') + ' ';
+		on = ' ' + xlate('on') + ' ';
+		proj = xlate(proj);
+		enhname = xlate(enhname);
+
+		title = xlate(enh) + ' ' + xlate('Composite Image');
+		info = title + at + time + ', ' + enhname + ', ' + proj + ' ' + xlate('Projection');
+
+		document.write('<div class="wximage" style="height: ' + maxHeight + 'px;">');
+		document.write('<span class="wximagetitle">');
+		document.write('<h3>' + title + '</h3>');
+		document.write('</span>');
+		document.write('<a href="javascript:doImgPopup(\'' + img + '\', \'' + title + '\', \'' + info + '\');"  OnMouseover="wxSetStatus(\'' + img + '\');" OnMouseout="wxSetStatus(\' \');" style="text-decoration: none;">');
+		document.write('<img src="' + thumb + '" alt="' + title + '" title="' + xlate('click') + '" width="' + width + '" height="' + height + '" style="border: 0px;" />');
+		document.write('</a><br />');
+
+		document.write('<table class="wxinfo">');
+		document.write('<tr><td>' + xlate('Last Pass')		+ ':</td><td>' + time  + '</td></tr>');
+		document.write('<tr><td>' + xlate('Enhancement')	+ ':</td><td>' + xlate(enh)   + '</td></tr>');
+		document.write('<tr><td>' + xlate('Projection')		+ ':</td><td>' + proj   + '</td></tr>');
+		document.write('</table>');
+		document.write('</div>');
+	}
+
+	function addImg(img, thumb, width, height, time, enh, enhname, sat, dir, maxel, elaz, freq, proj, cha, chb, dur, solar) {
+		if (img == '' || img == 'noimage.jpg' || thumb == '' || thumb == 'nothumb.jpg')
+			return;
+		if (width <= 1 || height <= 1)
+			return;
+		if (cha != '' && chb != '' && cha == 0 && chb == 0) {
+			addCompImg(img, thumb, width, height, time, enh, enhname, proj);
+			return;
+		}
+
+		at = ' ' + xlate('at') + ' ';
+		on = ' ' + xlate('on') + ' ';
+		dir = xlate(dir);
+		proj = xlate(proj);
+		enhname = xlate(enhname);
+		elaz = xlate(elaz);
+		sena = xlate('Channel A') + ': ';
+		senb = xlate('Channel B') + ': ';
+		cha = xlate(cha);
+		chb = xlate(chb);
+
+		title = sat + at + time;
+		info = sat + ' ' + dir + ' ' + maxel + ' ' + elaz + on + freq + ', ' + enhname + ', ' + proj + ' ' + xlate('Projection') + ', ' + sena + cha + ', ' + senb + chb;
+
+		document.write('<div class="wximage" style="height: ' + maxHeight + 'px;">');
+		document.write('<span class="wximagetitle"><h3>' + sat + '</h3></span>');
+		document.write('<a href="javascript:doImgPopup(\'' + img + '\', \'' + title + '\', \'' + info + '\');" style="text-decoration: none;" OnMouseover="return wxSetStatus(\'' + img + '\');" OnMouseout="return wxSetStatus(\' \');">');
+		document.write('<img src="' + thumb + '" alt="' + title + '" title="' + xlate('click') + '" width="' + width + '" height="' + height + '" style="border: 0px;" /></a><br />');
+		document.write('<table class="wxinfo">');
+		document.write('<tr><td>' + xlate('Pass Start')		+ ':</td><td>' + time  + '</td></tr>');
+		document.write('<tr><td>' + xlate('Enhancement')	+ ':</td><td>' + xlate(enh)   + '</td></tr>');
+		document.write('<tr><td>' + xlate('Projection')		+ ':</td><td>' + proj   + '</td></tr>');
+		document.write('<tr><td>' + xlate('Direction')		+ ':</td><td>' + dir   + '</td></tr>');
+		document.write('<tr><td>' + xlate('Max Elevation')	+ ':</td><td>' + maxel+' '+elaz + '</td></tr>');
+		document.write('<tr><td>' + xlate('Frequency')		+ ':</td><td>' + freq  + '</td></tr>');
+		document.write('<tr><td>' + xlate('Channel A')		+ ':</td><td>' + cha   + '</td></tr>');
+		document.write('<tr><td>' + xlate('Channel B')		+ ':</td><td>' + chb   + '</td></tr>');
+		//document.write('<tr><td>' + xlate('Pass Duration')	+ ':</td><td>' + dur   + '</td></tr>');
+		//document.write('<tr><td>' + xlate('Solar Elevation')	+ ':</td><td>' + solar + '&deg;</td></tr>');
+		document.write('</table>');
+		document.write('</div>');
+	}
+
+	function makeImgSection() {
+		checkSize(260, 176);
+		checkSize(260, 176);
+		checkSize(520, 176);
+		checkSize(331, 281);
+		checkSize(331, 281);
+		checkSize(331, 281);
+		checkSize(331, 281);
+		checkSize(331, 281);
+		checkSize(331, 281);
+		checkSize(208, 270);
+		checkSize(416, 270);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		checkSize(1, 1);
+		maxHeight += 200;
+
+		addImg('noaa-19-202205020939-msa.jpg', 'noaa-19-202205020939-msa-thumb.jpg', '260', '176', '02 May 2022 10:39', 'MSA', 'Multi-Spectral Analysis Enhancement', 'NOAA 19', 'southbound', '32&deg;', 'W', '137.10MHz', 'Normal', '2', '4', '14:50', '32.5');
+		addImg('noaa-19-202205020939-mcir.jpg', 'noaa-19-202205020939-mcir-thumb.jpg', '260', '176', '02 May 2022 10:39', 'MCIR', 'MCIR Enhancement', 'NOAA 19', 'southbound', '32&deg;', 'W', '137.10MHz', 'Normal', '2', '4', '14:50', '32.5');
+		addImg('noaa-19-202205020939-pris.jpg', 'noaa-19-202205020939-pris-thumb.jpg', '520', '176', '02 May 2022 10:39', 'Pristine', 'Pristine Enhancement', 'NOAA 19', 'southbound', '32&deg;', 'W', '137.10MHz', 'Normal', '2', '4', '14:50', '32.5');
+		addImg('noaa-20220502-s-norm.png', 'noaa-20220502-s-norm-thumb.jpg', '331', '281', '02 May 2022 10:39', 'norm', 'Normal Enhancement', 'Composite', 'southbound', '&deg;', '', 'MHz', 'Orthographic', '0', '0', '', '');
+		addImg('noaa-20220502-s-contrasta.png', 'noaa-20220502-s-contrasta-thumb.jpg', '331', '281', '02 May 2022 10:39', 'contrast', 'Contrast Enhanced', 'Composite', 'southbound', '&deg;', '', 'MHz', 'Orthographic', '0', '0', '', '');
+		addImg('noaa-20220502-s-contrastb.png', 'noaa-20220502-s-contrastb-thumb.jpg', '331', '281', '02 May 2022 10:39', 'contrast', 'Contrast Enhanced', 'Composite', 'southbound', '&deg;', '', 'MHz', 'Orthographic', '0', '0', '', '');
+		addImg('noaa-20220502-s-mcir.png', 'noaa-20220502-s-mcir-thumb.jpg', '331', '281', '02 May 2022 10:39', 'MCIR', 'MCIR Enhancement', 'Composite', 'southbound', '&deg;', '', 'MHz', 'Orthographic', '0', '0', '', '');
+		addImg('noaa-20220502-s-mcir-precip.png', 'noaa-20220502-s-mcir-precip-thumb.jpg', '331', '281', '02 May 2022 10:39', 'MCIR-precip', 'MCIR with Precipitation Enhancement', 'Composite', 'southbound', '&deg;', '', 'MHz', 'Orthographic', '0', '0', '', '');
+		addImg('noaa-20220502-s-msa-precip.png', 'noaa-20220502-s-msa-precip-thumb.jpg', '331', '281', '02 May 2022 10:39', 'MSA-precip', 'Multi-Spectral Analysis with Precipitation Enhancement', 'Composite', 'southbound', '&deg;', '', 'MHz', 'Orthographic', '0', '0', '', '');
+		addImg('noaa-15-05020817-msa.jpg', 'noaa-15-05020817-msa-thumb.jpg', '208', '270', '02 May 2022 09:17', 'MSA', 'Multi-Spectral Analysis Enhancement', 'NOAA 15', 'southbound', '82&deg;', 'W', '137.62MHz', 'Normal', '2', '4', '15:10', '29.9');
+		addImg('noaa-15-05020817-pris.jpg', 'noaa-15-05020817-pris-thumb.jpg', '416', '270', '02 May 2022 09:17', 'Pristine', 'Pristine Enhancement', 'NOAA 15', 'southbound', '82&deg;', 'W', '137.62MHz', 'Normal', '2', '4', '15:10', '29.9');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+		addImg('noimage.jpg', 'nothumb.jpg', '1', '1', '', 'Pristine', 'Pristine Enhancement', '', '', '&deg;', '', 'MHz', '', '', '', '', '');
+	}
+
+	window.onunload = doImgPopdown;
+	makeImgSection();
+/* ]]> */
+</script>
+<noscript>
+<table class="wxinfo" style="margin: 10px;">
+    <tr>
+	<td style="width: 48%; padding-left: 10px;">
+	    <a href="noaa-19-202205020939-msa.jpg">NOAA 19 MSA<br />
+	    <img src="noaa-19-202205020939-msa-thumb.jpg" alt="NOAA 19 MSA" title="NOAA 19 southbound 32&deg; W on 137.10MHz, Multi-Spectral Analysis Enhancement, Normal Projection" width="260" height="176" /><br />
+	    02 May 2022 10:39</a><p />
+	</td>
+	<td style="width: 48%; padding-left: 10px;">
+	    <a href="noaa-19-202205020939-mcir.jpg">NOAA 19 MCIR<br />
+	    <img src="noaa-19-202205020939-mcir-thumb.jpg" alt="NOAA 19 MCIR" title="NOAA 19 southbound 32&deg; W on 137.10MHz, MCIR Enhancement, Normal Projection" width="260" height="176" /><br />
+	    02 May 2022 10:39</a><p />
+	</td>
+    </tr>
+    <tr>
+	<td style="width: 48%; padding-left: 10px;">
+	<a href="noaa-19-202205020939-pris.jpg">NOAA 19 Pristine<br />
+	    <img src="noaa-19-202205020939-pris-thumb.jpg" alt="NOAA 19 Pristine" title="NOAA 19 southbound 32&deg; W on 137.10MHz, Pristine Enhancement, Normal Projection" width="520" height="176" /><br />
+	    02 May 2022 10:39</a><p />
+	</td>
+	<td style="width: 48%; padding-left: 10px;">
+	<a href="noaa-20220502-s-norm.png">Composite norm<br />
+	    <img src="noaa-20220502-s-norm-thumb.jpg" alt="Composite norm" title="Composite southbound &deg;  on MHz, Normal Enhancement, Orthographic Projection" width="331" height="281" /><br />
+	    02 May 2022 10:39</a><p />
+	</td>
+    </tr>
+    <tr>
+	<td style="width: 48%; padding-left: 10px;">
+	<a href="noaa-20220502-s-contrasta.png">Composite contrast<br />
+	    <img src="noaa-20220502-s-contrasta-thumb.jpg" alt="Composite contrast" title="Composite southbound &deg;  on MHz, Contrast Enhanced, Orthographic Projection" width="331" height="281" /><br />
+	    02 May 2022 10:39</a><p />
+	</td>
+	<td style="width: 48%; padding-left: 10px;">
+	<a href="noaa-20220502-s-contrastb.png">Composite contrast<br />
+	    <img src="noaa-20220502-s-contrastb-thumb.jpg" alt="Composite contrast" title="Composite southbound &deg;  on MHz, Contrast Enhanced, Orthographic Projection" width="331" height="281" /><br />
+	    02 May 2022 10:39</a><p />
+	</td>
+    </tr>
+</table>
+</noscript>
+<p />
+
+<table class="wxschedule"><tr><td>
+	<h2>Next Scheduled Satellite Passes over Northampton, United Kingdom</h2>
+	<table class="wxschedlist">
+	<thead>
+		<tr>
+			<th rowspan="2">Satellite<br />Name</th>
+			<th colspan="2">Start of Pass</th>
+			<th colspan="2">Time Available</th>
+			<th rowspan="2">Direction</th>
+			<th rowspan="2">Maximum Elevation<br />Degrees (East or West)</th>
+			<th rowspan="2">Frequency<br />MHz</th>
+		</tr>
+		<tr>
+			<th>UTC</th>
+			<th>Local Time*</th>
+			<th>UTC</th>
+			<th>Local Time*</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>NOAA 18</td>
+			<td>02 May  11:23</td>
+			<td>02 May  12:23</td>
+			<td>02 May  11:37</td>
+			<td>02 May  12:37</td>
+			<td><script type="text/javascript">document.write(xlate('southbound'));</script><noscript><div>southbound</div></noscript></td>
+			<td><script type="text/javascript">document.write(xlate('58&deg; W'));</script><noscript><div>58&deg; W</div></noscript></td>
+			<td>137.9125</td>
+		</tr>
+		<tr>
+			<td>NOAA 19</td>
+			<td>02 May  17:46</td>
+			<td>02 May  18:46</td>
+			<td>02 May  17:59</td>
+			<td>02 May  18:59</td>
+			<td><script type="text/javascript">document.write(xlate('northbound'));</script><noscript><div>northbound</div></noscript></td>
+			<td><script type="text/javascript">document.write(xlate('33&deg; E'));</script><noscript><div>33&deg; E</div></noscript></td>
+			<td>137.10</td>
+		</tr>
+		<tr>
+			<td>NOAA 15</td>
+			<td>02 May  18:04</td>
+			<td>02 May  19:04</td>
+			<td>02 May  18:17</td>
+			<td>02 May  19:17</td>
+			<td><script type="text/javascript">document.write(xlate('northbound'));</script><noscript><div>northbound</div></noscript></td>
+			<td><script type="text/javascript">document.write(xlate('48&deg; E'));</script><noscript><div>48&deg; E</div></noscript></td>
+			<td>137.62</td>
+		</tr>
+		<tr>
+			<td>NOAA 19</td>
+			<td>02 May  19:26</td>
+			<td>02 May  20:26</td>
+			<td>02 May  19:40</td>
+			<td>02 May  20:40</td>
+			<td><script type="text/javascript">document.write(xlate('northbound'));</script><noscript><div>northbound</div></noscript></td>
+			<td><script type="text/javascript">document.write(xlate('51&deg; W'));</script><noscript><div>51&deg; W</div></noscript></td>
+			<td>137.10</td>
+		</tr>
+		<tr>
+			<td>NOAA 15</td>
+			<td>02 May  19:44</td>
+			<td>02 May  20:44</td>
+			<td>02 May  19:57</td>
+			<td>02 May  20:57</td>
+			<td><script type="text/javascript">document.write(xlate('northbound'));</script><noscript><div>northbound</div></noscript></td>
+			<td><script type="text/javascript">document.write(xlate('31&deg; W'));</script><noscript><div>31&deg; W</div></noscript></td>
+			<td>137.62</td>
+		</tr>
+		<tr>
+			<td>NOAA 18</td>
+			<td>02 May  21:14</td>
+			<td>02 May  22:14</td>
+			<td>02 May  21:28</td>
+			<td>02 May  22:28</td>
+			<td><script type="text/javascript">document.write(xlate('northbound'));</script><noscript><div>northbound</div></noscript></td>
+			<td><script type="text/javascript">document.write(xlate('82&deg; E'));</script><noscript><div>82&deg; E</div></noscript></td>
+			<td>137.9125</td>
+		</tr>
+		<tr>
+			<td>NOAA 19</td>
+			<td>03 May  07:42</td>
+			<td>03 May  08:42</td>
+			<td>03 May  08:06</td>
+			<td>03 May  09:06</td>
+			<td><script type="text/javascript">document.write(xlate('southbound'));</script><noscript><div>southbound</div></noscript></td>
+			<td><script type="text/javascript">document.write(xlate('44&deg; E'));</script><noscript><div>44&deg; E</div></noscript></td>
+			<td>137.10</td>
+		</tr>
+		<tr>
+			<td>NOAA 15</td>
+			<td>03 May  07:52</td>
+			<td>03 May  08:52</td>
+			<td>03 May  08:08</td>
+			<td>03 May  09:08</td>
+			<td><script type="text/javascript">document.write(xlate('southbound'));</script><noscript><div>southbound</div></noscript></td>
+			<td><script type="text/javascript">document.write(xlate('65&deg; E'));</script><noscript><div>65&deg; E</div></noscript></td>
+			<td>137.62</td>
+		</tr>
+	</tbody>
+	</table>
+	<p>
+	* local time is GMT Summer Time.
+	</p>
+</td></tr></table>
+</div>
+</body>
+</html>
