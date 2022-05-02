@@ -5,8 +5,10 @@
 
 /* Adding the nunito Font and variants*/
 
-font-family: "Nunito Sans",
+
+/*{font: 1em sans-serif;
 /*sans-serif;*/
+
 html,
 button,
 input,
@@ -77,7 +79,6 @@ body {
 }
 
 body {
-    font-family: ;
     font-family: sans-serif;
     font-weight: 300;
     font-size: 16px;
