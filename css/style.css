@@ -4,10 +4,13 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 
 /* Adding the nunito Font and variants*/
+@font-face{
+font-family  :Nunito-regular;
+    src:url(fonts/nunitoSans-regular.ttf)}
+ @font-face{
+     font-family:italic;
+    src:url(/fonts/nunitoSans-italic.ttf)}
 
-
-/*{font: 1em sans-serif;
-/*sans-serif;*/
 
 html,
 button,
@@ -79,7 +82,7 @@ body {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: Nunito-regular;
     font-weight: 300;
     font-size: 16px;
     color: #555;
@@ -161,7 +164,7 @@ body {
 }
 
 .navbar-default.opaqued h1 {
-    font-size: 38px !important;
+    font-size: 45px !important;
     position: relative;
     top: -10px;
 }
@@ -277,14 +280,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Open Sans";
+    font-family: "Nunito-regular";
     font-weight: 700;
     color: rgb(13, 41, 92);
 }
 
 h2 {
     color: #7413dc;
-    font-family: "Open Sans";
+    font-family: "Nunito-regular";
     font-weight: 700;
 }
 
@@ -316,7 +319,7 @@ em {
 pre {
     background: #ebebeb;
     border: none;
-    font-family: "nuneto";
+    font-family: "Nunito-regular";
     font-size: 16px;
     color: #666;
     padding: 20px;
@@ -638,7 +641,7 @@ a:after {
 }
 
 .service-active p {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Nunito-regular";
     padding-top: 10px;
 }
 
@@ -1316,7 +1319,7 @@ screen and (max-device-width: 1050px) {
     display: none;
     position: relative;
     width: 100%;
-    -ms-touch-action: pan-y;
+    -touch-action: pan-y;
 }
 
 .owl-carousel .owl-wrapper {
