@@ -234,7 +234,7 @@ th {
 @media print {
     * {
         color: #000 !important;
-        text-shadow: none !important;
+        text-shadow: burlywood !important;
         background: transparent !important;
         box-shadow: none !important;
     }
