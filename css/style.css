@@ -15,11 +15,11 @@
     src: url(/fonts/nunitoSans-italic.ttf)
 }
 
-<<<<<<< HEAD
+
 /*{font: 1em sans-serif;
 /*sans-serif;*/
 
-=======>>>>>>>fee4cf03c68174acf2424da7aa40c4c1f50cbe8c html,
+
 button,
 input,
 select,
@@ -89,26 +89,17 @@ body {
 }
 
 body {
-    <<<<<<< HEAD @font-face {
+@font-face 
         font-family: NunitoSans-Regular.ttf;
         src: url("/fonts/nunitoSans-Regular.ttf");
+        font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
     }
-    font-family: NunitoSans-Regular.ttf;
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
-    overflow-x: hidden;
-    =======font-family: Nunito-regular;
-    font-weight: 300;
-    font-size: 16px;
-    color: #555;
-    -webkit-font-smoothing: antialiased;
-    -webkit-overflow-scrolling: touch;
-    overflow-x: hidden;
-    >>>>>>>fee4cf03c68174acf2424da7aa40c4c1f50cbe8c
-}
 
 .col-md-4 {
     padding-bottom: 20px;
@@ -183,14 +174,13 @@ body {
 }
 
 .navbar-default.opaqued h1 {
-    <<<<<<< HEAD font-size: 38px !important;
+font-size: 38px !important;
     position: relative;
     top: -10px;
-    =======font-size: 45px !important;
+    font-size: 45px !important;
     position: relative;
     top: -10px;
-    >>>>>>>fee4cf03c68174acf2424da7aa40c4c1f50cbe8c
-}
+   }
 
 .navgar-default.opaqued {
     padding: 25px 0;
@@ -303,28 +293,17 @@ h3,
 h4,
 h5,
 h6 {
-    <<<<<<< HEAD font-family: "NunitoSans-Regular";
+    font-family: "NunitoSans-Regular";
     font-weight: 700;
-    color: rgb(13, 41, 92);
-}
+    color: rgb(13, 41, 92);}
+
 
 h2 {
     color: #7413dc;
     font-family: "NunitoSans-Regular";
     font-weight: 700;
-    =======font-family: "Nunito-regular";
-    font-weight: 700;
     color: rgb(13, 41, 92);
 }
-
-h2 {
-    color: #7413dc;
-    font-family: "Nunito-regular";
-    font-weight: 700;
-    >>>>>>>fee4cf03c68174acf2424da7aa40c4c1f50cbe8c
-}
-
-
 /* Paragraph & Typographic */
 
 p {
@@ -350,22 +329,21 @@ em {
 }
 
 pre {
-    <<<<<<< HEAD background: #ebebeb;
-    border: none;
-    font-family: "nunito-regular";
-    font-size: 16px;
-    color: #666;
-    padding: 20px;
-    line-height: 28px;
-    =======background: #ebebeb;
+ background: #ebebeb;
+border: none;
+font-family: "nunito-regular";
+font-size: 16px;
+color: #666;
+padding: 20px;
+line-height: 28px;
+background: #ebebeb;
     border: none;
     font-family: "Nunito-regular";
     font-size: 16px;
     color: #666;
     padding: 20px;
     line-height: 28px;
-    >>>>>>>fee4cf03c68174acf2424da7aa40c4c1f50cbe8c
-}
+    }
 
 small {
     font-size: 12px;
@@ -682,11 +660,8 @@ a:after {
 }
 
 .service-active p {
-    <<<<<<< HEAD font-family: "Open Sans", sans-serif;
+    font-family: "Nunito-regular";
     padding-top: 10px;
-    =======font-family: "Nunito-regular";
-    padding-top: 10px;
-    >>>>>>>fee4cf03c68174acf2424da7aa40c4c1f50cbe8c
 }
 
 .service-content {
@@ -1360,21 +1335,17 @@ screen and (max-device-width: 1050px) {
 /* display none until init */
 
 .owl-carousel {
-    <<<<<<< HEAD display: none;
+    display: none;
     position: relative;
     width: 100%;
     -ms-touch-action: pan-y;
-    =======display: none;
-    position: relative;
-    width: 100%;
-    -touch-action: pan-y;
-    >>>>>>>fee4cf03c68174acf2424da7aa40c4c1f50cbe8c
+   touch-action: pan-y;
 }
 
 .owl-carousel .owl-wrapper {
     display: none;
     position: relative;
-    -webkit-transform: translate3d(0px, 0px, 0px);
+   -ms-transform: translate3d(0px, 0px, 0px);
 }
 
 .owl-carousel .owl-wrapper-outer {
