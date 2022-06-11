@@ -6,7 +6,7 @@
 /* Adding the nunito Font and variants*/
 
 @font-face {
-    font-family: Nunito-regular;
+    font-family: NunitoSans-regular;
     src: url(fonts/nunitoSans-regular.ttf)
 }
 
