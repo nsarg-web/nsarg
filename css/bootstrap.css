@@ -26,7 +26,7 @@ html {
 
 body {
     margin: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:  'NunitoSans-Regular;
 }
 
 article,
@@ -239,14 +239,13 @@ th {
     padding: 0;
 }
 
-@media print {
-    * {
-        color: #000 !important;
-        text-shadow: burlywood !important;
-        background: transparent !important;
-        box-shadow: none !important;
-    }
-    a,
+@media print
+{color: #000 !important;
+text-shadow: burlywood !important;
+background: transparent !important;
+box-shadow: none !important;
+}
+a,
     a:visited {
         text-decoration: underline;
     }
@@ -330,8 +329,9 @@ html {
 }
 
 body {
-    font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-family: 'NunitoSans-Regular';
+    /*font-family: "Helvetica Neue",Helvetica, Arial, sans-serif;*/
+    font-size: 20px;
     line-height: 1.428571429;
     color: #333;
     background-color: #fff;
