@@ -86,10 +86,8 @@
                                 -webkit-font-smoothing: antialiased;
                                 -webkit-overflow-scrolling: touch;
                                 overflow-x: hidden;
-                            }
-                            .col-md-4 {
-                                padding: bottom 20px;
-                            }
+                            .col-md-4{padding:bottom20px;}
+
                             .row {
                                 margin-right: 0px;
                                 margin-left: -15px;
@@ -1935,5 +1933,4 @@
                             .mfp-ie7 .mfp-close {
                                 top: 0;
                                 right: 0;
-                                padding-top: 0;
-                            }
+                                padding-top:0;}
