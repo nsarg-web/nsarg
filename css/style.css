@@ -4,15 +4,16 @@
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 
 /* Adding the nunito Font and variants*/
+/*Setting the font NunitoSans Regular and italic*/
                         
                         @font-face {
-                            font-family: "NunitoSans-regular";
-                            src: url(fonts/nunitoSans-regular.ttf);
+                            font-family: 'NunitoSans-regular';
+                            src: url('fonts/nunitoSans-regular.ttf');
                         }
                         
                         @font-face {
-                            font-family: "italic";
-                            src: url(/fonts/NunitoSans-Italic.ttf);
+                            font-family: 'italic';
+                            src: url('/fonts/NunitoSans-Italic.ttf');
                         }
                         /*{font: 1em sans-serif;
 /*sans-serif;*/
@@ -78,14 +79,15 @@
                         body {
                             @font-face {
                                 font-family: 'NunitoSans';
-                                src: url(/font/nunitoSans-Regular.ttf);
+                                src: url('/font/nunitoSans-Regular.ttf');
                                 font-weight: 300;
                                 font-size: 25px;
                                 color: #555;
                                 -webkit-font-smoothing: antialiased;
                                 -webkit-font-smoothing: antialiased;
                                 -webkit-overflow-scrolling: touch;
-                                overflow-x: hidden;
+                                overflow-x: hidden;}
+
                             .col-md-4{padding:bottom20px;}
 
                             .row {
@@ -245,7 +247,6 @@
                             h4,
                             h5,
                             h6 {
-                                font-family: "NunitoSans-Regular";
                                 font-weight: 700;
                                 color: rgb(13, 41, 92);
                             }
@@ -276,7 +277,7 @@
                             pre {
                                 background: #ebebeb;
                                 border: none;
-                                font-family: "nunitoSans-regular";
+                                font-family: "NunitoSans-regular";
                                 font-size: 16px;
                                 color: #666;
                                 padding: 20px;
