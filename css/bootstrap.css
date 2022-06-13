@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'NunitoSans-regular';
-    src: url('fonts/nunitoSans-regular.ttf');
+    src: url('/fonts/NunitoSans-Regular.ttf');
 }
 
 @font-face {
@@ -238,13 +238,13 @@ td,
 th {
     padding: 0;
 }
-
+/*
 @media print
 {color: #000 !important;
 text-shadow: burlywood !important;
 background: transparent !important;
 box-shadow: none !important;
-}
+}*/
 a,
     a:visited {
         text-decoration: underline;

@@ -88,7 +88,9 @@
                                 -webkit-overflow-scrolling: touch;
                                 overflow-x: hidden;}
 
-                            .col-md-4{padding:bottom20px;}
+                            .col-md-4}
+                            {padding:bottom20px;
+                            }
 
                             .row {
                                 margin-right: 0px;
@@ -135,11 +137,11 @@
                             .purple {
                                 color: #7413dc;
                             }
-                            .green {
-                                color: #23a950;
-                            }
                             #purple {
                                 color: #7413dc;
+                            }
+                            .green {
+                                color: #23a950;
                             }
                             #green {
                                 color: #23a950;
@@ -249,8 +251,8 @@
                             h6 {
                                 font-weight: 700;
                                 font-family: 'NunitoSans-regular';
-                                color: rgb(13, 41, 92);
-                            }
+                                /*color: rgb(13, 41, 92);*/
+                                color: aqua;}
                             h2 {
                                 color: #7413dc;
                                 font-family: "NunitoSans-Regular";
@@ -1075,7 +1077,7 @@
                             }
                             .backstretch:before {
                                 content: "";
-                                background-image: url("../images/02.png");
+                                background-image: url("/images/02.jpg");
                                 min-width: 100%;
                                 height: 100%;
                                 position: absolute;
@@ -1936,3 +1938,4 @@
                                 top: 0;
                                 right: 0;
                                 padding-top:0;}
+                            }
